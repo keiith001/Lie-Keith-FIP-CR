@@ -130,7 +130,7 @@
     #hero {
         background: url(../images/hero-main.jpg) no-repeat;
         background-size: cover;
-        height: 200px;
+        height: 213px;
     }
     
     .book-now {
@@ -161,7 +161,7 @@
     .hero-img-h2, .hero-img-h3 {
         background: rgb(255, 255, 255);
         padding: 10px 15px;
-        font-size: 14px;
+        font-size: 16px;
     }
     
     .hero-img-h2 span,  .hero-img-h3 span {
@@ -218,8 +218,8 @@
     }
     
     #why-choose-us-nav ul li a {
-    color: inherit;
-    padding: 5px;
+        color: inherit;
+        padding: 5px;
     }
     
     #why-choose-us-nav ul li a.selected {
@@ -418,6 +418,301 @@
         background-color: #CF6666;
         border-radius: 5px;
     }
+
+ /* ROOMS
+ ----------------------- */
+    /* Main Hero Image
+    ----------------------- */
+    #room-styles-hero {
+        background: url(../images/rooms/m-room-styles-section-412x223.jpg) no-repeat;
+        background-size: cover;
+        height: 223px;
+    }
+
+    #rooms-introduction p {
+        font-size: 14px;
+        line-height: 22px;
+        margin-bottom: 20px;
+    }
+
+    /* Rooms Features
+    ----------------------- */
+    #rooms-features {
+        background-color: #F5F5F5;
+    }
+
+    #rooms-features p {
+        text-align: center;
+        margin-top: 30px;
+        color: black;
+    }
+
+    #r-feature-list {
+        font-size: 14px;
+        margin: 20px auto;
+    }
+
+    /* Rooms Feeatures Nav */
+    #bullet-nav {
+        margin: 30px auto;
+    }
+    
+    #bullet-nav ul {
+        list-style: none;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        padding: 0;
+    }
+
+    .bullet-nav-item-s {
+        width: 5px;
+        height: 5px;
+        background-color: #313131;
+        border-radius: 10px;
+    }
+
+    .bullet-nav-item {
+        width: 5px;
+        height: 5px;
+        background-color: #9c9c9c;
+        border-radius: 10px;
+    }
+
+    #bullet-nav ul li {
+        margin: 0 10px;
+    }
+
+    /* BEST SELECTION
+    ----------------------- */
+    #best-selection-hero-con {
+        background: url(../images/rooms/m-best-selection-section-412x223.jpg) no-repeat;
+        background-size: cover;
+        height: 223px;
+    }
+
+    #bs-hero-heading-box {
+        align-self: end;
+    }
+
+    /* CHATEAUS */
+    #chateaus-con {
+        margin-bottom: 20px;
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+    }
+
+    .h3-headline {
+        margin-top: 20px;
+        font-size: 14px;
+    }
+
+    .line-separator-2 {
+        border: 1px solid #9a21188c;
+        width: 150px;
+        margin: 15px auto 0 auto;
+    }
+
+    .h3-headline h3 {
+        text-align: center;
+    }
+
+    #chateaus-details {
+        font-size: 14px;
+        margin: 20px auto;
+    }
+
+    .learn-more-1 {
+        margin-top: 10px;
+        background-color: #9a2018;
+        padding: 15px;
+        display: flex;
+    }
+
+    .learn-more-1 a {
+        text-decoration: none;
+        color: white;
+        font-size: 14px;
+        text-align: center;
+        margin: 0 auto;
+    }
+
+    /* GREAT SELECTION
+    ----------------------- */
+    #great-selection-con {
+        background-color: #F5F5F5;
+    }
+
+    .h2-headline {
+        padding: 10px 15px;
+        font-size: 16px;
+        margin-top: 20px;
+    }
+
+    .h2-headline span {
+        color: #9a2018;
+        font-size: 12px;
+    }
+
+    /* Great Selection Nav */
+    #gs-nav ul {
+        list-style: none;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        padding: 0;
+        margin-top: 0;
+        margin-bottom: 20px;
+    }
+
+    #gs-nav ul li {
+        margin: 0 15px;
+        font-size: 14px;
+    }
+
+    #gs-nav ul li a {
+        text-decoration: none;
+        color: #979797;
+    }
+
+    #gs-nav ul li a.selected-2 {
+        color: #313131;
+        border-bottom: 4px solid #9a2018;
+        padding-bottom: 5px;
+        font-size: 16px;
+    }
+
+    .line-separator-3 {
+        border-bottom: 2px solid #cacaca;
+        margin-bottom: 20px;
+    }
+
+    /* Villas Details */
+    #villas-con {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    #villas-details {
+        margin-bottom: 40px;
+        background-color: #E4E4E4;
+    }
+
+    #villas-details img {
+        width: 100%;
+    }
+
+    #villas-details ul {
+        padding: 0 60px;
+        font-size: 14px;
+        margin: 20px auto 30px auto;
+    }
+
+    /* ROOMS CONTACT
+    ----------------------- */
+    #rooms-contact-img {
+        background: url(../images/rooms/m-best-selection-section-412x223.jpg) no-repeat;
+        background-size: cover;
+        height: 223px;
+    }
+    
+    #rooms-contact-con {
+        background-color: #F5F5F5;
+        margin: 0 auto;
+        padding-top: 20px;
+        padding-bottom: 40px;
+        margin-bottom: 0;
+    }
+
+    #rooms-contact-con h2 {
+        font-size: 24px;
+    }
+
+    #rooms-contact-con h2 span {
+        color: #9a2018;
+        font-size: 16px;
+    }
+
+    /* Contact Form */
+    #rooms-contact-form form {
+        margin-top: 20px;
+        display: flex;
+        flex-direction: column;
+    }
+    
+    #rooms-contact-form input, textarea {
+        padding: 10px;
+        border: 2px solid #d6d6d6;
+        background-color: #f7f7f7;
+        border-radius: 5px;
+        margin-bottom: 15px;
+        font: inherit;
+        width: auto;
+    }
+    
+    #rooms-contact-form textarea {
+        height: 50px;
+    }
+
+    #rooms-contact-form input {
+        display: inline;
+    }
+
+    #rooms-contact-form ul {
+        list-style: none;
+        padding: 0;
+        margin-top: 0;
+    }
+
+    #rooms-contact-form ul li {
+        margin: 0 auto;
+        font-size: 12px;
+    }
+
+    #rooms-contact-form #weekly-news {
+        margin: 8px 0;
+    }
+
+    #rooms-contact-form #tnc {
+        margin-bottom: 15px;
+    }
+
+    #rooms-contact-form input[type="checkbox"]:checked + label::after {
+        content: url(../images/couples_resort_logo_icon.svg);
+        margin-left: 5px;
+    }
+    
+    #rooms-contact-form input[type="submit"] {
+        padding: 12px 28px;
+        background: #9a2018;
+        color: #fff;
+        border: none;
+        transition: all 200ms ease-in;
+        width: 150px;
+        align-self: flex-end;
+    }
+    
+    #rooms-contact-form input[type="submit"]:hover {
+        background-color: #CF6666;
+        border-radius: 5px;
+    }
+
+    #rooms-contact-form p {
+        font-size: 12px;
+        margin-top: 20px;
+        color: #9b9b9b;
+        font-style: italic;
+    }
+
+
+
+    
+
+
+
+
  
  /* FOOTER
  ----------------------- */
@@ -427,7 +722,6 @@
     background-size: cover;
     color: #fff;
     font-size: 12px;
-    margin-top: 40px;
     padding-bottom: 80px;
  }
  
