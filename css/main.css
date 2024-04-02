@@ -707,11 +707,371 @@
     }
 
 
+ /* PACKAGES
+ ----------------------- */
+    /* Main Hero Image
+    ----------------------- */
+    #all-inclusive-hero {
+        background: url(../images/packages/m-all-inclusive-package.jpg) no-repeat;
+        background-size: cover;
+        height: 223px;
+    }
 
+    #all-inclusive-introduction p {
+        font-size: 14px;
+        line-height: 22px;
+        margin-bottom: 20px;
+    }
+
+    #all-inclusive-introduction p span {
+        color: #000000;
+        font-size: 14px;
+        line-height: 22px;
+        margin-bottom: 20px;
+    }
+
+    /* Key Experiences Offered
+    ----------------------- */
+    #key-experiences {
+        margin: 5px auto;
+    }
+
+    #key-experiences-details {
+        display: flex;
+        flex-direction: column;
+    }
+
+    #key-experiences-details ol {
+        margin: 5px auto;
+        list-style: none;
+        padding: 0 20px;
+    }
+
+    #key-experiences-details ol li {
+        margin: 15px auto;
+    }
+
+    #key-experiences-items li p {
+        font-size: 16px;
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+    }
+
+    #key-experiences-items li p span {
+        font-size: 24px;
+        color: #9a2018;
+        margin-bottom: 5px;
+    }
+
+    #key-experiences-items li ul {
+        display: flex;
+        flex-direction: column;
+        padding: 0;
+        margin-top: 5px;
+    }
+
+    #key-experiences-items li ul li {
+        margin: 2px;
+        text-align: center;
+        list-style: none;
+        font-size: 13px;
+    }
+
+    #ke-1-details li {
+        list-style: disc;
+    }
+
+    /* Key Experiences Note */
+    #ke-note {
+        background-color: #F5F5F5;
+        padding: 20px;
+        margin: 20px auto 0px auto;
+        border-bottom: #dbdbdb 3px solid;
+    }
+
+    #ke-note p {
+        font-size: 14px;
+    }
+
+    /* Bonuses
+    ----------------------- */
+    #bonuses {
+        margin: 10px auto;
+    }
+
+    #bonuses ul {
+        padding-left: 20px;
+    }
+
+    #bonuses-list {
+        font-size: 14px;
+        margin: 20px auto;
+    }
+
+    /* Bonuses Nav */
+    #bonuses-bullet-nav {
+        margin: 30px auto;
+    }
     
+    #bonuses-bullet-nav ul {
+        list-style: none;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        padding: 0;
+    }
 
+    .bullet-nav-item-s {
+        width: 5px;
+        height: 5px;
+        background-color: #313131;
+        border-radius: 10px;
+    }
 
+    .bullet-nav-item {
+        width: 5px;
+        height: 5px;
+        background-color: #9c9c9c;
+        border-radius: 10px;
+    }
 
+    #bonuses-bullet-nav ul li {
+        margin: 0 10px;
+    }
+
+    /* Rental Rates
+    ----------------------- */
+    #rental-rates-hero-con {
+        background: url(../images/packages/m-rental-rates.jpg) no-repeat;
+        background-size: cover;
+        height: 223px;
+    }
+
+    #rr-hero-heading-box {
+        align-self: end;
+    }
+
+    /* Rental Rates Navigation */
+    #rental-rates-nav ul {
+        list-style: none;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        padding: 0;
+        margin-top: 0;
+        margin-bottom: 20px;
+    }
+
+    #rental-rates-nav ul li {
+        margin: 0 15px;
+        font-size: 14px;
+    }
+
+    #rental-rates-nav ul li a {
+        text-decoration: none;
+        color: #979797;
+    }
+
+    #rental-rates-nav ul li a.selected-2 {
+        color: #313131;
+        border-bottom: 4px solid #9a2018;
+        padding-bottom: 5px;
+        font-size: 16px;
+    }
+
+    /* Sport Equipment Cards */
+    #sport-eq-cards {
+        margin-top: 0;
+        margin-bottom: 20px;
+        display: flex;
+        flex-direction: row;
+        overflow: hidden;
+    }
+
+    .card-con {
+        margin: 0 10px;
+        background-color: #F5F5F5;
+    }
+
+    .card-con h4 {
+        font-size: 14px;
+        margin: 10px 0 0 20px;
+    }
+
+    .card-con ul {
+        list-style: disc;
+        padding-left: 40px;
+        padding-right: 10px;
+        margin-top: 5px;
+    }
+
+    .card-con ul li {
+        font-size: 12px;
+    }
+
+    .img-label {
+        position: relative;
+        height: 205px;
+    }
+
+    .img-label img {
+        z-index: 3;
+        position: relative;
+        bottom: 40px;
+    }
+
+    .free-label {
+        z-index: 10;
+        position: relative;
+        background-color: #bb3e3e;
+        padding: 10px;
+        width: 100px;
+        float: right;
+    }
+
+    .free-label p {
+        color: white;
+        text-align: center;
+    }
+
+    /* Extra Fees */
+    #rental-additional-note {
+        background-color: #F5F5F5;
+        padding: 20px;
+        margin: 20px auto 0px auto;
+        border-bottom: #dbdbdb 3px solid;
+    }
+
+    #rental-additional-note h4 {
+        color: #9a2018;
+        margin-bottom: 10px;
+    }
+
+    #rental-additional-note p {
+        font-size: 14px;
+    }
+
+    /* PACKAGES
+    ----------------------- */
+    #packages-con {
+        margin-top: 20px;
+    }
+
+    /* Packages Nav */
+    #pck-nav ul {
+        list-style: none;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        padding: 0;
+        margin-top: 0;
+        margin-bottom: 20px;
+    }
+
+    #pck-nav ul li {
+        margin: 0 15px;
+        font-size: 14px;
+    }
+
+    #pck-nav ul li a {
+        text-decoration: none;
+        color: #979797;
+    }
+
+    #pck-nav ul li a.selected-2 {
+        color: #313131;
+        border-bottom: 4px solid #9a2018;
+        padding-bottom: 5px;
+        font-size: 16px;
+    }
+
+    .line-separator-3 {
+        border-bottom: 2px solid #cacaca;
+        margin-bottom: 20px;
+    }
+
+    /* Package Promo */
+    #package-promo {
+        background-color: #bb3e3e;
+        padding: 10px 20px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        margin-top: 10px;
+    }
+
+    #package-promo p {
+        color: white;
+        margin: 2px;
+    }
+
+    /* Last Minute Deals */
+    #last-minute-deals-con {
+        background-color: #F5F5F5;
+    }
+
+    #lmd-details {
+        display: flex;
+        flex-direction: column;
+    }
+
+    #lmd-details img {
+        width: 100%;
+    }
+
+    #lmd-details h4 {
+        margin: 20px 20px 10px 20px;
+        font-size: 16px;
+    }
+
+    #lmd-details p {
+        font-size: 14px;
+        margin-top: 0;
+        margin-left: 20px;
+        margin-right: 20px;
+        margin-bottom: 20px;
+    }
+
+    /* Last Minute Deals Navigation */
+    #lmd-bullet-nav {
+        margin: 30px auto;
+    }
+    
+    #lmd-bullet-nav ul {
+        list-style: none;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        padding: 0;
+    }
+
+    .bullet-nav-item-s {
+        width: 5px;
+        height: 5px;
+        background-color: #313131;
+        border-radius: 10px;
+    }
+
+    .bullet-nav-item {
+        width: 5px;
+        height: 5px;
+        background-color: #9c9c9c;
+        border-radius: 10px;
+    }
+
+    #lmd-bullet-nav ul li {
+        margin: 0 10px;
+    }
+
+    /* PACKAGES FOOTER IMAGE
+    ----------------------- */
+    #footer-image-hero {
+        background: url(../images/packages/m-packages-bottom.jpg) no-repeat;
+        background-size: cover;
+        height: 223px;
+    }
 
  
  /* FOOTER
