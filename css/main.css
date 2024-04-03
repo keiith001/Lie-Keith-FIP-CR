@@ -528,6 +528,12 @@
         background-color: #9a2018;
         padding: 15px;
         display: flex;
+        transition: all ease-in-out 0.3s;
+        cursor: pointer;
+    }
+
+    .learn-more-1:hover {
+        background-color: #bb3e3e;
     }
 
     .learn-more-1 a {
@@ -1072,6 +1078,152 @@
         background-size: cover;
         height: 223px;
     }
+
+/* ACTIVITIES
+ ----------------------- */
+    /* Main Hero Image
+    ----------------------- */
+    #activities-hero {
+        background: url(../images/activities/m-algonquin-park-section-412x223.jpg) no-repeat;
+        background-size: cover;
+        height: 223px;
+    }
+
+    /* About
+    ----------------------- */
+    #act-about {
+        margin-top: 0;
+    }
+
+    #abt-con-details {
+        margin: 20px auto;
+    }
+
+    #abt-con-details p {
+        font-size: 14px;
+    }
+
+    #abt-con-read-more summary {
+        margin: 10px auto;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        background-color: #a12f27;
+        color: white;
+        padding: 10px;
+        transition: all ease-in-out 0.3s;
+    }
+
+    #abt-con-read-more summary:hover {
+        background-color: #bb3e3e;
+    }
+    
+    #abt-con-read-more article {
+        background-color: #F5F5F5;
+        padding: 15px;
+    }
+
+    #abt-con-read-more article p {
+        font-size: 14px;
+    }
+
+    /* Activities
+    ----------------------- */
+    #activities-con {
+        background-color: #F5F5F5;
+        margin: 20px auto 40px auto;
+    }
+
+    /* Activities Navigation */
+    #act-nav ul {
+        list-style: none;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        padding: 0;
+        margin-top: 0;
+        margin-bottom: 20px;
+    }
+
+    #act-nav ul li {
+        margin: 0 15px;
+        font-size: 14px;
+    }
+
+    #act-nav ul li a {
+        text-decoration: none;
+        color: #979797;
+    }
+
+    #act-nav ul li a.selected-2 {
+        color: #313131;
+        border-bottom: 4px solid #9a2018;
+        padding-bottom: 5px;
+        font-size: 16px;
+    }
+
+    /* Park Activities Details */
+    #park-act-details {
+        margin-bottom: 20px;
+        background-color: #E4E4E4;
+    }
+
+    #park-act-details img {
+        width: 100%;
+    }
+
+    #park-act ul {
+        list-style: disc;
+    }
+
+    #park-act-con ul li {
+        font-size: 14px;
+    }
+
+    #park-act-con p {
+        font-size: 14px;
+        padding: 5px 15px 15px 15px;
+    }
+
+    /* Seasonal Activities
+    ----------------------- */
+    #seasonal-act-hero-con {
+        background: url(../images/activities/m-seasonal-activities-section-412x223.jpg) no-repeat;
+        background-size: cover;
+        height: 223px;
+    }
+
+    #sa-hero-heading-box {
+        align-self: end;
+    }
+
+    /* Season Cards Category */
+    #sa-detail-con {
+        margin-bottom: 20px;
+    }
+
+    #sa-cards {
+        display: flex;
+        flex-direction: column;
+    }
+
+    #sa-cards h4 {
+        font-size: 16px;
+        margin: 10px auto 15px auto;
+        display: flex;
+        justify-content: center;
+    }
+
+    #spring-summer, #fall-winter {
+        display: flex;
+        justify-content: center;
+        margin-bottom: 20px;
+    }
+
+    #spring-con, #summer-con, #fall-con, #winter-con {
+        border: #b8b8b8 1px solid;
+    }
+
 
  
  /* FOOTER
