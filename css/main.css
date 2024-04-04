@@ -33,6 +33,13 @@
     border-top: solid 3px #CF6666;
     padding-top: 20px;
  } 
+
+ header {
+    background-color: white;
+    position: sticky;
+    top: 0;
+    z-index: 50;
+ }
  
  /* MAIN NAV
  ----------------------- */
