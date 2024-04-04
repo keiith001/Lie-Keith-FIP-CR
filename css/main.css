@@ -32,8 +32,7 @@
     margin-top: 20px;
     border-top: solid 3px #CF6666;
     padding-top: 20px;
- }
- 
+ } 
  
  /* MAIN NAV
  ----------------------- */
@@ -703,7 +702,35 @@
     #rooms-contact-form input[type="submit"]:hover {
         background-color: #CF6666;
         border-radius: 5px;
+        box-shadow: 0 4px 10px #31313150 ;
     }
+
+    @keyframes send-btn {
+        0% {
+            border-radius: 5px;
+        }
+
+        50% {
+            border-radius: 30px;
+            background-color: white;
+            color: #9a2018;
+            transform: scale(1.1);
+            border: #313131 1px solid;
+        }
+
+        100% {
+            border-radius: 5px;
+        }
+    }
+
+    #rooms-contact-form input[type="submit"]:focus {
+        animation: send-btn;
+        animation-duration: 1s;
+        animation-timing-function: ease-in-out;
+        animation-iteration-count: 1;
+    }
+
+    
 
     #rooms-contact-form p {
         font-size: 12px;
