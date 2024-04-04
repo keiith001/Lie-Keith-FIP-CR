@@ -710,14 +710,37 @@
         background-color: #CF6666;
         border-radius: 5px;
         box-shadow: 0 4px 10px #31313150 ;
+
+        animation: send-btn;
+        animation-duration: 1s;
+        animation-timing-function: ease-in-out;
+        animation-iteration-count: 1;
     }
 
     @keyframes send-btn {
         0% {
             border-radius: 5px;
+            color: white;
+            background-color: #9a2018;
+        }
+
+        25% {
+            border-radius: 30px;
+            background-color: white;
+            color: #9a2018;
+            transform: scale(1.1);
+            border: #313131 1px solid;
         }
 
         50% {
+            border-radius: 30px;
+            background-color: white;
+            color: #9a2018;
+            transform: scale(0.9);
+            border: #313131 1px solid;
+        }
+
+        75% {
             border-radius: 30px;
             background-color: white;
             color: #9a2018;
@@ -727,17 +750,10 @@
 
         100% {
             border-radius: 5px;
+            color: white;
+            background-color: #9a2018;
         }
     }
-
-    #rooms-contact-form input[type="submit"]:focus {
-        animation: send-btn;
-        animation-duration: 1s;
-        animation-timing-function: ease-in-out;
-        animation-iteration-count: 1;
-    }
-
-    
 
     #rooms-contact-form p {
         font-size: 12px;
